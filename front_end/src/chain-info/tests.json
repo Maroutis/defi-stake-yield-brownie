@@ -1,0 +1,92 @@
+{
+  "contracts": {
+    "DappToken": "fa32e27feb4095798032f287504e8f9eee7e24d1",
+    "MockDAI": "6c7943dbdc973b4e987fc86deee5b735dac2dfb7",
+    "MockERC20": "7559ea784fa7cd27d470b41906355df5a8be33b0",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "35a00bd0a05f7e85e7cb703d5507ba8483956cd1",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "7e4b46976aab58f4bf915c42e8c0fd3d0e3d896f",
+    "TokenFarm": "11efd2dc58ec50dc2e7240058fcdb148bd9a1721"
+  },
+  "tests": {
+    "tests/integration/test_token_farm_integration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "e9c7728f9cc0529d74665704ec0c7902a19c6976",
+      "txhash": []
+    },
+    "tests/unit/test_token_farm.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "...............",
+      "sha1": "4d12e0bff70b67e73a6bedfefea7bd1797060de1",
+      "txhash": [
+        "6765dc0dffdfd458a4c25a9edf55a7ce442957a8",
+        "a877334f1e7e1b0aacc24651bcd31a17e9fb01eb",
+        "d767fd32c21b0738d6f19a3d6cc9007d9132cff4"
+      ]
+    }
+  },
+  "tx": {
+    "6765dc0dffdfd458a4c25a9edf55a7ce442957a8": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "2": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "a877334f1e7e1b0aacc24651bcd31a17e9fb01eb": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "2": [
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "d767fd32c21b0738d6f19a3d6cc9007d9132cff4": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "2": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
