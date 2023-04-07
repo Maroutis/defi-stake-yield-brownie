@@ -17,6 +17,7 @@ This app allows you to:
 - `getUserTVL`: Get the total value that users have supplied based on calculations from the Chainlink Price Feeds. 
 - `getNumberOfTokensFromValue`: Convert the reward value generated into tokens (reward tokens).
 - `ReinvestAccruedReward`: Move your reward to the staking pool for more rewards.
+
 You can also withdraw the reward, manage a list of allowed tokens, change the APR and more!
 
 - [defi-stake-yield-brownie](#defi-stake-yield-brownie)
