@@ -3,14 +3,14 @@ import { Box } from "@material-ui/core"
 import { TabContext, TabList, TabPanel } from "@material-ui/lab"
 import React, { useState } from "react"
 import { Tab } from "@material-ui/core"
-import { WalletBalance } from "./yourWallet/WalletBalance"
+import { WalletBalance } from "./yourWallet"
 import { StakeForm } from "./yourWallet/StakeForm"
-import { TokenFarmWalletBalance } from "./tokenFarmWallet/TokenFarmWalletBalance"
-import { UnStakeForm } from "./tokenFarmWallet/UnStakeForm"
+import { TokenFarmWalletBalance } from "./tokenFarmWallet"
+import { UnStakeForm } from "./tokenFarmWallet"
 import { makeStyles } from "@material-ui/core"
 import { classicNameResolver } from "typescript"
 import { Divider } from "@material-ui/core";
-import { ReinvestRewardForm } from "./tokenFarmWallet/ReinvestRewardForm"
+import { ReinvestRewardForm } from "./tokenFarmWallet"
 import { AddToMetamaskButton } from "./yourWallet"
 import { Tooltip } from "@material-ui/core";
 import { InfoOutlined } from "@material-ui/icons";
