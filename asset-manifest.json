@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/defi-stake-yield-brownie/static/css/main.f6808142.chunk.css",
-    "main.js": "/defi-stake-yield-brownie/static/js/main.119775ed.chunk.js",
-    "main.js.map": "/defi-stake-yield-brownie/static/js/main.119775ed.chunk.js.map",
+    "main.js": "/defi-stake-yield-brownie/static/js/main.a2411df2.chunk.js",
+    "main.js.map": "/defi-stake-yield-brownie/static/js/main.a2411df2.chunk.js.map",
     "runtime-main.js": "/defi-stake-yield-brownie/static/js/runtime-main.d9d4fd94.js",
     "runtime-main.js.map": "/defi-stake-yield-brownie/static/js/runtime-main.d9d4fd94.js.map",
     "static/js/2.a97b1d4b.chunk.js": "/defi-stake-yield-brownie/static/js/2.a97b1d4b.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.d9d4fd94.js",
     "static/js/2.a97b1d4b.chunk.js",
     "static/css/main.f6808142.chunk.css",
-    "static/js/main.119775ed.chunk.js"
+    "static/js/main.a2411df2.chunk.js"
   ]
 }
