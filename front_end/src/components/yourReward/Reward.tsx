@@ -18,8 +18,11 @@ const useStyles = makeStyles((theme) => ({
         padding: 0,
         marginBottom: theme.spacing(2),
         boxSizing: "border-box",  // include padding and border in width calculation
-        width: "120%",  // modify the width of the entire box
-        marginLeft: "-10%",  // offset the overflowing width to the left
+        width: "100%",  // modify the width of the entire box
+        [theme.breakpoints.up("sm")]: {
+            width: "120%",
+            marginLeft: "-10%",
+        },
     },
     content: {
         backgroundColor: "white",
