@@ -76,7 +76,7 @@ If you want to be able to deploy to testnets, do the following.
 
 Set your `WEB3_INFURA_PROJECT_ID`, and `PRIVATE_KEY` [environment variables]. 
 
-You'll also need testnet Goerli or Sepolia ETH and LINK. You can get ETH into your wallet by using the [sepolia faucets located here](https://sepoliafaucet.com/).
+You'll also need testnet Goerli or Sepolia ETH. You can get ETH into your wallet by using the [sepolia faucets located here](https://sepoliafaucet.com/).
 
 You'll also want an [Etherscan API Key](https://etherscan.io/apis) to verify your smart contracts. 
 

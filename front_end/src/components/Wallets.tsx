@@ -39,8 +39,6 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: "1px",
         border: `1px solid ${theme.palette.primary.dark}`,
         padding: 0,
-        margin: 0,
-        marginTop: 0,
         marginBottom: theme.spacing(2),
         boxSizing: "border-box",  // include padding and border in width calculation
         width: "100%",  // modify the width of the entire box
