@@ -43,8 +43,11 @@ const useStyles = makeStyles((theme) => ({
         marginTop: 0,
         marginBottom: theme.spacing(2),
         boxSizing: "border-box",  // include padding and border in width calculation
-        width: "120%",  // modify the width of the entire box
-        marginLeft: "-10%",  // offset the overflowing width to the left
+        width: "100%",  // modify the width of the entire box
+        [theme.breakpoints.up("sm")]: {
+            width: "120%",
+            marginLeft: "-10%",
+        },
     },
     line: {
         width: "4px",
@@ -53,11 +56,14 @@ const useStyles = makeStyles((theme) => ({
     },
     tokenLine: {
         position: 'absolute',
-        top: '51.15%',
-        width: '85.5%',
+        top: '295px',
+        width: '100%',
         height: '1px',
         background: 'linear-gradient(to right, #ccc, #ccc 100%, transparent 100%, transparent 100%, #ccc 100%)',
-        transform: 'translateY(50%)'
+        transform: 'translateY(50%)',
+        [theme.breakpoints.up("sm")]: {
+            width: "85.3%",
+        },
     },
     section: {
         flex: "1 1 0px",
