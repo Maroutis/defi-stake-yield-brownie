@@ -1,6 +1,6 @@
 # defi-stake-yield-brownie
 
-# Preview the project here: https://mmtis.github.io/defi-stake-yield-brownie/
+# Preview the project here: https://maroutis.github.io/defi-stake-yield-brownie/
 
 <br/>
 <p align="center">
